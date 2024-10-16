@@ -1,6 +1,12 @@
-# AI-Class-Projects
-# undergrad-projects
+# AI Undergrad Projects
 
-Added datasets for the students to use in their project
-List of students and their projects 
 
+### 
+A list of all undergraduate projects of students in AI Class
+---
+
+###
+You can take a look at all their projects&tasks in their respective folders
+
+
+---
