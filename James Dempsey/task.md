@@ -1,12 +1,18 @@
-## Task: Predicting Diabetes Type Using Random Forest Classifier
-### Objective 
-Use features such as genetic markers, insulin levels, and others to predict the type of diabetes (e.g., Type 1, Type 2, Gestational) using a Random Forest Classifier.
 
-### Preprocessing 
-Explain how you handled missing data and encoded categorical variables for model training.
-### Model Training 
-Present the Random Forest model along with the hyperparameters you chose (e.g., number of trees).
-### Evaluation Metrics 
-Provide the model's accuracy and classification report. You can also include a confusion matrix.
-### Feature Importance 
-Provide insights into which features were most important for predicting diabetes type. Include a bar plot visualization.
+# Task: Predict Diabetes Type Using Gradient Boosting Classifier
+
+## Objective 
+Predict the type of diabetes (e.g., Type 1 Diabetes, Type 2 Diabetes, LADA, Neonatal Diabetes) based on medical and health attributes like Genetic Markers, Autoantibodies, Insulin Levels, BMI, Blood Pressure, etc.
+
+## Preprocessing 
+- **Missing Data Handling**: Describe how you handled any missing data, whether by imputation or exclusion.
+- **Categorical Encoding**: Explain the encoding techniques used for categorical variables, such as one-hot encoding or label encoding.
+
+## Model Training and Evaluation 
+- **Model Training**: Train a Gradient Boosting Classifier on the dataset and describe any hyperparameter tuning techniques used, such as Grid Search or Randomized Search.
+- **Evaluation Metrics**: Report the evaluation metrics for the Gradient Boosting model, including accuracy, precision, recall, and F1-score.
+
+## Feature Importance 
+- **Feature Importance Plot**: Provide a plot showing the most important features contributing to the model's predictions, helping to explain which features are most influential in predicting the type of diabetes.
+
+---

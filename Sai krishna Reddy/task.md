@@ -1,9 +1,9 @@
-## Task: Predict Mean Temperature Using Multiple Features using Decision Tree Regression
+## Task: Predicting Weather Attributes Using Decision Tree Regression
 ### Objective 
-Use Linear Regression or Decision Tree Regression to predict the mean temperature based on features such as humidity, wind speed, and mean pressure.
+Use historical weather data to predict temperature based on features like humidity, wind speed, and pressure using a Decision Tree Regression model.
 ### Preprocessing 
-Demonstrate how you cleaned the dataset and prepared the features.
-### Model Training and Evaluation 
-Show the evaluation metrics (MAE, MSE, R²) for the Decision Tree model.
-### Visualization 
-Provide a plot of actual vs predicted temperatures.
+Show how you handled missing data and prepared the dataset.
+### Model Training 
+Provide the trained Decision Tree Regression model and its performance metrics (MAE, MSE).
+### Visualizations 
+Include a plot comparing the actual and predicted temperature values.
