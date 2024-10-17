@@ -6,3 +6,4 @@ Show how you handled missing data, extracted relevant features, and converted ge
 Present the evaluation metrics for the Random Forest Classifier (accuracy, precision, recall, F1-score).
 ### Feature Importance 
 Provide a plot that shows the importance of different features (like title keywords) in predicting movie genres.
+
