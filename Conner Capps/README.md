@@ -1,24 +1,21 @@
-
-# Task: Customer Segmentation Using K-Nearest Neighbors (KNN)
-
+## Task: Predicting Data Quality Indicator Using Support Vector Machine (SVM)
 ## Objective
-Perform customer segmentation based on shopping mall data, which includes features like age, gender, annual income, and spending score. The aim is to classify customers into predefined segments using K-Nearest Neighbors (KNN) algorithm.
+Predict the data_quality indicator (0 or 1) based on various cost-of-living and economic factors for cities worldwide, utilizing an SVM model.
 
 ## Preprocessing
-- **Missing Data Handling**: Describe the method used to handle any missing data, such as imputation or exclusion.
-- **Categorical Encoding**: Convert categorical variables like gender into numerical values suitable for the KNN algorithm.
-- **Feature Scaling**: Normalize the dataset to ensure that features are on a similar scale, which is critical for distance-based methods like KNN.
-
-## Model Training
-- **K-Nearest Neighbors**: Train a KNN model using customer data and specify the number of neighbors (k) to classify customers.
-- **Distance Metric**: Explain the choice of distance metric (e.g., Euclidean, Manhattan) used to compute the nearest neighbors.
-
-## Model Evaluation
-- **Cross-Validation**: Use cross-validation to evaluate the KNN model performance and select the optimal value of k.
-- **Performance Metrics**: Report accuracy, precision, recall, and F1-score to assess the model's performance in classifying customers into segments.
-
+### Missing Data Handling: 
+Describe the imputation strategy chosen for handling missing values across the cost-of-living factors.
+### Categorical Encoding: 
+Encode categorical columns (city and country) using techniques like one-hot encoding or label encoding.
+### Feature Scaling: 
+Apply feature scaling to numeric columns (x1 through x55), essential for SVM models to perform well.
+## Model Training and Evaluation
+### Model Training: 
+Train an SVM model on the dataset and experiment with hyperparameters like the kernel type (e.g., linear, RBF) and regularization parameter (C) for optimal results.
+### Evaluation Metrics: 
+Report accuracy, precision, recall, and F1-score to evaluate the SVM model's predictive performance.
 ## Visualizations
-- **K-Value Determination**: Plot the accuracy or error rate as a function of k to visualize how different k values affect performance.
-- **Cluster Visualization**: Provide a 2D or 3D visualization of the customer segments and their nearest neighbors.
-
----
+### Confusion Matrix: 
+Generate a confusion matrix plot to visualize model classification performance.
+### ROC Curve: 
+Include an ROC curve plot and calculate the AUC score to evaluate the model’s ability to distinguish between different data_quality levels.
