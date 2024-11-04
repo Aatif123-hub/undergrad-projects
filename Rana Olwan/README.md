@@ -1,24 +1,25 @@
-
-# Task: Customer Segmentation Using DBSCAN
-
+## Task: Predicting Data Quality Indicator Using Random Forest
 ## Objective
-Perform customer segmentation based on shopping mall data, which includes features like age, gender, annual income, and spending score. The aim is to group customers into segments using DBSCAN, a density-based clustering method.
+Predict the data_quality indicator (0 or 1) based on various economic and cost-of-living features for cities worldwide, utilizing a Random Forest model.
 
 ## Preprocessing
-- **Missing Data Handling**: Describe the method used to handle any missing data, whether through imputation or exclusion.
-- **Categorical Encoding**: Convert categorical variables, such as gender, into numerical values suitable for clustering.
-- **Feature Scaling**: Apply feature scaling to ensure uniformity across features, which is critical for distance-based methods like DBSCAN.
-
-## Model Training
-- **Parameter Selection**: Choose appropriate values for DBSCAN parameters (eps and min_samples) to identify clusters in the data.
-- **Cluster Assignments**: Show the resulting clusters and identify any noise points (outliers) that do not belong to a cluster.
-
-## Cluster Validation
-- **Silhouette Score**: Calculate the silhouette score to assess the clustering quality and choose the optimal parameters.
-- **Cluster Analysis**: Describe the resulting clusters in terms of customer characteristics (e.g., high-spending, frequent visitors).
-
+### Missing Data Handling: 
+Describe the imputation method used for columns with missing values.
+### Categorical Encoding: 
+Encode the city and country columns, possibly using one-hot encoding or label encoding.
+### Feature Scaling: 
+Scale the numerical features, particularly the cost factors (x1 through x55), for optimal model performance.##
+## Model Training and Evaluation
+### Model Training: 
+Train a Random Forest model on the dataset, including hyperparameter tuning for maximum depth and the number of estimators.
+### Evaluation Metrics: 
+Measure model accuracy, precision, recall, and F1-score to assess performance.
 ## Visualizations
-- **Cluster Plot**: Provide a 2D or 3D plot visualizing the clusters based on features like age, income, and spending score, indicating noise points.
-- **Parameter Sensitivity**: Include a plot showing the effect of varying eps on the number of clusters.
+### Feature Importance Plot: 
+Visualize feature importance to understand the top contributors to data_quality.
+### Confusion Matrix: 
+Provide a confusion matrix to visualize model performance.
+### ROC Curve: 
+Plot the ROC curve and calculate the AUC score to evaluate the model's predictive capability.
 
----
+--
